@@ -1,3 +1,10 @@
+#GPUtil.getGPUs():	Returnează o listă cu toate GPU-urile active din sistem					:https://github.com/anderskm/gputil#usage
+#gpu.load:		Încărcarea GPU-ului ca valoare între 0.0 și 1.0 (adică 0% – 100%)			:https://github.com/anderskm/gputil#gpu-object
+#gpu.temperature:        Temperatura curentă a GPU-ului								:https://github.com/anderskm/gputil#gpu-object
+#psutil.cpu_percent(interval=1)	Returnează utilizarea medie a CPU-ului în procente				:https://github.com/giampaolo/psutil#cpu
+#psutil.process_iter(['name', 'cpu_percent']) Iterează toate procesele active și extrage numele și utilizarea CPU	:https://github.com/giampaolo/psutil#process-class
+#proc.info['cpu_percent']	Valoarea exactă de CPU consumată de un proces					:https://github.com/giampaolo/psutil#as-dict
+#psutil.NoSuchProcess, AccessDenied	Excepții pentru când un proces nu mai există sau nu ai drepturi		:https://github.com/giampaolo/psutil#exceptions
 import psutil
 import GPUtil
 import time
